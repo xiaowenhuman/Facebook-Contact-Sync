@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/question"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp"
+	android:textSize="18dp"
+	android:textColor="#FFFFFF" />

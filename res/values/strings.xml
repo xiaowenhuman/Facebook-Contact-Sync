@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Contact-sync</string>
+	<string name="label">Facebook contact sync</string>
+	<string name="contact_email">admin@weednet.ro</string>
+	<string name="status_via">Facebook</string>
+	<string name="invite_action_label">Invite [action]</string>
+	<string name="view_group_action_label">View group [action]</string>
+	<string name="profile_action">Facebook profile</string>
+	<string name="view_profile">View Profile</string>
+	<string name="facebook_app_id">104789639646317</string>
+	
+	<string name="add_account">Add account</string>
+	<string name="exit">Exit</string>
+	
+	<string name="prefs_cat_sync_title">Sync settings</string>
+	<string name="prefs_sync_freq_title">Sync frequency</string>
+	<string name="prefs_sync_freq_summary">The frequency at which the contacts synchronize</string>
+	<string name="prefs_sync_pic_size_title">Picture size</string>
+	<string name="prefs_sync_pic_size_summary">The size of the profile picture</string>
+	<string name="prefs_sync_all_title">Sync all contacts</string>
+	<string name="prefs_sync_all_summary">Synchronize all contacts or only existing contacts</string>
+	<string name="prefs_sync_wifi_only_title">Sync only on wifi</string>
+	<string name="prefs_sync_wifi_only_summary">Synchronize only when you are connected to a wifi network</string>
+	<string name="prefs_sync_statuses_title">Sync statuses</string>
+	<string name="prefs_sync_statuses_summary">Import your friends\' statuses (only status updates, not comments, links, checkings, etc)</string>
+	<string name="prefs_sync_birthdays_title">Sync birthdays</string>
+	<string name="prefs_sync_birthdays_summary">Add birthdays to your contacts (works only on some devices)</string>
+	<string name="prefs_sync_join_by_id_title">Join by Facebook ID</string>
+	<string name="prefs_sync_join_by_id_summary">Join contacts with different names by using the Facebook ID from Notes field</string>
+	<string name="prefs_cat_troubleshoot_title">Troubleshooting</string>
+	<string name="prefs_troubleshoot_conn_title">Test connection</string>
+	<string name="prefs_troubleshoot_conn_summary">Run tests that check the Facebook API status</string>
+	<string name="prefs_faq_title">FAQ</string>
+	<string name="prefs_faq_summary">Don\'t know how to use the app?</string>
+	<string name="prefs_run_now_title">Run sync now</string>
+	<string name="prefs_run_now_summary">Run a manual contact synchronization</string>
+	<string name="prefs_run_now_full_title">Run full sync</string>
+	<string name="prefs_run_now_full_summary">Remove all facebook contacts and re-import them</string>
+	<string name="prefs_show_notif_title">Show notifications</string>
+	<string name="prefs_show_notif_summary">Display notifications when connection problems with Facebook API occur</string>
+	<string name="prefs_conn_timeout_title">Connection timeout</string>
+	<string name="prefs_conn_timeout_summary">Timeout value in seconds for establishing the connection</string>
+	<string name="prefs_contact_bug_title">Report bug</string>
+	<string name="prefs_contact_bug_summary">Send bug report</string>
+	<string name="prefs_cat_about_title">About</string>
+	<string name="prefs_about_title">Copyright &#169; 2012 WeedNET</string>
+	<string name="prefs_about_summary">Danut Chereches</string>
+	<string name="prefs_rate_app_title">Rate app</string>
+	<string name="prefs_rate_app_summary">Rate application on Android Market</string>
+	<string name="prefs_donate_title">Donate</string>
+	<string name="prefs_donate_summary">Like the app? Want to help? Make a small donation</string>
+	<string name="prefs_version_title">Version</string>
+	
+	<string name="test_start_btn">Start test</string>
+	<string name="test_auth_key">1. Checking permissions</string>
+	<string name="test_get_friends">2. Checking friends</string>
+</resources>

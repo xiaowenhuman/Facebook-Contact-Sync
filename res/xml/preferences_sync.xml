@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/prefs_cat_sync_title" >
+		<ListPreference
+			android:defaultValue="24"
+			android:entries="@array/prefs_sync_freq_entries"
+			android:entryValues="@array/prefs_sync_freq_entry_values"
+			android:key="sync_freq"
+			android:summary="@string/prefs_sync_freq_summary"
+			android:title="@string/prefs_sync_freq_title" />
+		<ListPreference
+			android:defaultValue="4"
+			android:entries="@array/prefs_pic_size_entries"
+			android:entryValues="@array/prefs_pic_size_entry_values"
+			android:key="pic_size"
+			android:summary="@string/prefs_sync_pic_size_summary"
+			android:title="@string/prefs_sync_pic_size_title" />
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="sync_all"
+			android:summary="@string/prefs_sync_all_summary"
+			android:title="@string/prefs_sync_all_title" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="sync_wifi_only"
+			android:summary="@string/prefs_sync_wifi_only_summary"
+			android:title="@string/prefs_sync_wifi_only_title" />
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="sync_statuses"
+			android:summary="@string/prefs_sync_statuses_summary"
+			android:title="@string/prefs_sync_statuses_title" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="sync_birthdays"
+			android:summary="@string/prefs_sync_birthdays_summary"
+			android:title="@string/prefs_sync_birthdays_title" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="sync_join_by_id"
+			android:summary="@string/prefs_sync_join_by_id_summary"
+			android:title="@string/prefs_sync_join_by_id_title" />
+	</PreferenceCategory>
+</PreferenceScreen>

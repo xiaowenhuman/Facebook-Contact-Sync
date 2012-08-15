@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="Account Settings" />
+	<PreferenceScreen
+		android:key="account_settings"
+		android:summary="Configure sync settings"
+		android:title="Account settings" >
+		<intent
+			android:action="android.intent.action.VIEW"
+			android:targetClass="ro.weednet.contactssync.activities.Preferences"
+			android:targetPackage="ro.weednet.contactssync" />
+	</PreferenceScreen>
+</PreferenceScreen>

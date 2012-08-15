@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="@string/prefs_cat_troubleshoot_title" >
+		<Preference
+			android:key="faq"
+			android:summary="@string/prefs_faq_summary"
+			android:title="@string/prefs_faq_title" />
+		<Preference
+			android:key="run_now"
+			android:summary="@string/prefs_run_now_summary"
+			android:title="@string/prefs_run_now_title" />
+		<Preference
+			android:key="run_now_full"
+			android:summary="@string/prefs_run_now_full_summary"
+			android:title="@string/prefs_run_now_full_title" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="show_notif"
+			android:summary="@string/prefs_show_notif_summary"
+			android:title="@string/prefs_show_notif_title" />
+		<EditTextPreference
+			android:defaultValue="10"
+			android:key="conn_timeout"
+			android:summary="@string/prefs_conn_timeout_summary"
+			android:title="@string/prefs_conn_timeout_title"
+			/>
+		<Preference
+			android:key="test_fb_api"
+			android:summary="@string/prefs_troubleshoot_conn_summary"
+			android:title="@string/prefs_troubleshoot_conn_title" />
+		<Preference
+			android:key="contact_bug"
+			android:summary="@string/prefs_contact_bug_summary"
+			android:title="@string/prefs_contact_bug_title" />
+	</PreferenceCategory>
+</PreferenceScreen>
